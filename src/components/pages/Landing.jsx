@@ -42,9 +42,6 @@ const InputBox = styled.input`
   border-radius: 5px;
 `
 
-//  ;
-//메인페이지니까 <div>안에 h1, h2, div 해놓고 큰제목, 그아래 작은제목, 그아래 로그인폼 이런식으로하면될것같아요
-
 function Landing() {
 
   const [ id, setId ] = useState("");
