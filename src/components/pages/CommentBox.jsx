@@ -92,8 +92,8 @@ function CommentBox(props) {
 }
 
 const initialValue = [
-    { id: '123', text: 'ㅋㅋ', status: 'active' },
-    { id: '124', text: '안녕하세요', status: 'active' },
+    { id: '123', text: '님들 이 게임 개노잼임 하지마셈', status: 'active' },
+    { id: '124', text: '형 개못하잖아', status: 'active' },
   ];
 
 export default CommentBox;
