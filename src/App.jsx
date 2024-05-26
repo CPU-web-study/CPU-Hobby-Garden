@@ -8,6 +8,7 @@ import SearchHobby from "./components/pages/SearchHobby";
 import AddHobby from "./components/pages/AddHobby";
 import FreeBoard from "./components/pages/FreeBoard";
 import SignIn from "./components/pages/SignIn";
+import Hobby from "./components/pages/Hobby";
 
 const router = createBrowserRouter([
   {
@@ -22,11 +23,18 @@ const router = createBrowserRouter([
     path: "add",
     element: <AddHobby />,
   },
-  { path: "freeboard", element: <FreeBoard /> },
+  { 
+    path: "freeboard", 
+    element: <FreeBoard /> },
   {
     path: "signin",
     element: <SignIn />,
   },
+  {
+    path: "hobby" , 
+    element: <Hobby/>
+  },
+  
 ]);
 
 const StyledApp = styled.div`
@@ -40,13 +48,17 @@ const StyledApp = styled.div`
     color: inherit;
     text-decoration: none;
   }
+
+
 `;
+
 
 function App() {
   return (
     <StyledApp className="App">
       <Header />
       <RouterProvider router={router} />
+      
       <Footer />
     </StyledApp>
   );
