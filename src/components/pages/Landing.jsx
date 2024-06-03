@@ -12,8 +12,6 @@ const FlexItem = styled.div`
   margin : 10px;
   padding: 20px;
   border-radius: 5px;
-
-
   text-align: center;
   font-size:30px;
 `;

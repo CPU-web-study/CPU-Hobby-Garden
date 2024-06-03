@@ -5,7 +5,7 @@ import CommentList from "./CommentList";
 import CommentBox from "./CommentBox";
 
 const HobbyBoard = styled.div`
-
+    background: trasparent;
 `;
 
 const Title = styled.div`

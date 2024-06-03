@@ -9,6 +9,7 @@ import AddHobby from "./components/pages/AddHobby";
 import FreeBoard from "./components/pages/FreeBoard";
 import SignIn from "./components/pages/SignIn";
 import Hobby from "./components/pages/Hobby";
+import MyPage from "./components/pages/MyPage";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "hobby" , 
     element: <Hobby/>
+  },
+  {
+    path: "myPage" , 
+    element: <MyPage/>
   },
   
 ]);
